@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+  background-color: #18191a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 630px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 48px;
+  color: #ebee00;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 630px;
+  background-color: #242526;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #111111;
+  margin-bottom: 30px;
+}
+
+.card .img_container {
+  display: flex;
+  align-items: center;
+}
+
+.card .img_container img {
+  width: 218px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
